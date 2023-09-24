@@ -1,0 +1,154 @@
+[
+    {
+      "id": 1,
+      "cover_img": "https://i.ibb.co/44XgnXW/Health.png",
+      "donation_img" : "https://i.ibb.co/SmSXjCV/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category_name": "Health",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_color": "#0052FF",
+      "description": "Join us in making a life-changing difference for children in need by providing clean water. Access to safe drinking water is a basic human right, yet millions of children lack this essential resource, putting their health and futures at risk. With your generous donation, we can bring clean water solutions to these vulnerable communities. Every dollar makes a tangible impact, helping us build wells, install water filtration systems, and educate communities on hygiene practices. Together, we can ensure that children have the opportunity to thrive, grow, and dream without the burden of waterborne illnesses. Donate now and be part of this transformative journey.",
+      "price": "$290"
+    },
+    {
+      "id": 2,
+      "cover_img": "https://i.ibb.co/Lz3hFwG/Education.png",
+      "donation_img" : "https://i.ibb.co/BN1yYcC/Rectangle-4287-1.png",
+      "title": "Good education",
+      "category_name": "Education",
+      "category_bg": "#FF444A33",
+
+      "card_bg": "#FF444A26",
+      "text_button_color": "#FF444A",
+      "description": "Welcome to our donation campaign focused on empowering lives through education. We believe that access to quality education is a fundamental right and can be a powerful catalyst for change. By donating to our cause, you can directly impact the lives of underprivileged children, providing them with the tools and opportunities they need to build a brighter future. Your contribution will help us bridge the educational gap, ensuring that every child has equal access to knowledge and a chance to reach their full potential. Join us in our mission to transform lives through the power of education. Donate today and make a lasting difference!",
+      "price": "$290"
+    },
+    {
+      "id": 3,
+      "cover_img": "https://i.ibb.co/LhsFFyQ/Clothing.png",
+      "donation_img" : "https://i.ibb.co/cwnKFHg/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category_name": "Clothing",
+      "category_bg": "#79C23333",
+      "card_bg": "#79C23F26",
+
+      "text_button_color": "#79C23F",
+      "description": "Welcome to our Used Clothing Drive donation campaign, where your generosity can make a profound impact on the lives of those in need. By donating your gently used clothing items, you can help provide warmth, comfort, and dignity to individuals and families facing challenging circumstances. Your contribution will not only declutter your closet but also empower others to face the world with renewed confidence. Together, we can create a community of care and compassion, where every donated garment becomes a symbol of hope. Join our cause, donate today, and be a part of transforming lives through our Used Clothing Drive.",
+      "price":"$290"
+    },
+    {
+      "id": 4,
+      "cover_img": "https://i.ibb.co/vZs1MxR/Food.png",
+      "donation_img" : "https://i.ibb.co/Gkk5Zjk/Rectangle-4287-2.png",
+      "title": "Better Food for Everyone",
+      "category_name": "Food",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+
+      "text_button_color": "#F87147",
+      "description": "Welcome to our donation campaign, Better Food for Everyone, where your generosity can make a tangible difference in the lives of individuals and communities. By donating to our cause, you can help us provide nutritious meals to those who need it most. Together, we can combat hunger, promote health, and create a world where everyone has access to quality food. Your contribution will support food banks, community kitchens, and initiatives that empower individuals to lead healthier lives. Join us in our mission to nourish lives and ensure that no one goes to bed hungry. Donate today and be a part of the movement for Better Food for Everyone.",
+      "price": "$290"
+    },
+    {
+      "id": 5,
+      "cover_img": "https://i.ibb.co/vZs1MxR/Food.png",
+      "donation_img" : "https://i.ibb.co/Gkk5Zjk/Rectangle-4287-2.png",
+      "title": "Better Food for Everyone",
+      "category_name": "Food",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+
+      "text_button_color": "#F87147",
+      "description": "Welcome to our donation campaign, Better Food for Everyone, where your generosity can make a tangible difference in the lives of individuals and communities. By donating to our cause, you can help us provide nutritious meals to those who need it most. Together, we can combat hunger, promote health, and create a world where everyone has access to quality food. Your contribution will support food banks, community kitchens, and initiatives that empower individuals to lead healthier lives. Join us in our mission to nourish lives and ensure that no one goes to bed hungry. Donate today and be a part of the movement for Better Food for Everyone.",
+      "price": "$290"
+    },
+    {
+      "id": 6,
+      "cover_img": "https://i.ibb.co/LhsFFyQ/Clothing.png",
+      "donation_img" : "https://i.ibb.co/cwnKFHg/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category_name": "Clothing",
+      "category_bg": "#79C23333",
+      "card_bg": "#79C23F26",
+
+      "text_button_color": "#79C23F",
+      "description": "Welcome to our Used Clothing Drive donation campaign, where your generosity can make a profound impact on the lives of those in need. By donating your gently used clothing items, you can help provide warmth, comfort, and dignity to individuals and families facing challenging circumstances. Your contribution will not only declutter your closet but also empower others to face the world with renewed confidence. Together, we can create a community of care and compassion, where every donated garment becomes a symbol of hope. Join our cause, donate today, and be a part of transforming lives through our Used Clothing Drive.",
+      "price":"$290"
+    },
+    {
+      "id": 7,
+      "cover_img": "https://i.ibb.co/Lz3hFwG/Education.png",
+      "donation_img" : "https://i.ibb.co/BN1yYcC/Rectangle-4287-1.png",
+      "title": "Good education",
+      "category_name": "Education",
+      "category_bg": "#FF444A33",
+
+      "card_bg": "#FF444A26",
+      "text_button_color": "#FF444A",
+      "description": "Welcome to our donation campaign focused on empowering lives through education. We believe that access to quality education is a fundamental right and can be a powerful catalyst for change. By donating to our cause, you can directly impact the lives of underprivileged children, providing them with the tools and opportunities they need to build a brighter future. Your contribution will help us bridge the educational gap, ensuring that every child has equal access to knowledge and a chance to reach their full potential. Join us in our mission to transform lives through the power of education. Donate today and make a lasting difference!",
+      "price": "$290"
+    },
+    {
+      "id": 8,
+      "cover_img": "https://i.ibb.co/44XgnXW/Health.png",
+      "donation_img" : "https://i.ibb.co/SmSXjCV/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category_name": "Health",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_color": "#0052FF",
+      "description": "Join us in making a life-changing difference for children in need by providing clean water. Access to safe drinking water is a basic human right, yet millions of children lack this essential resource, putting their health and futures at risk. With your generous donation, we can bring clean water solutions to these vulnerable communities. Every dollar makes a tangible impact, helping us build wells, install water filtration systems, and educate communities on hygiene practices. Together, we can ensure that children have the opportunity to thrive, grow, and dream without the burden of waterborne illnesses. Donate now and be part of this transformative journey.",
+      "price": "$290"
+    },
+    {
+      "id": 9,
+      "cover_img": "https://i.ibb.co/44XgnXW/Health.png",
+      "donation_img" : "https://i.ibb.co/SmSXjCV/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category_name": "Health",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_color": "#0052FF",
+      "description": "Join us in making a life-changing difference for children in need by providing clean water. Access to safe drinking water is a basic human right, yet millions of children lack this essential resource, putting their health and futures at risk. With your generous donation, we can bring clean water solutions to these vulnerable communities. Every dollar makes a tangible impact, helping us build wells, install water filtration systems, and educate communities on hygiene practices. Together, we can ensure that children have the opportunity to thrive, grow, and dream without the burden of waterborne illnesses. Donate now and be part of this transformative journey.",
+      "price": "$290"
+    },
+    { "id": 10,
+    "cover_img": "https://i.ibb.co/Lz3hFwG/Education.png",
+    "donation_img" : "https://i.ibb.co/BN1yYcC/Rectangle-4287-1.png",
+    "title": "Good education",
+    "category_name": "Education",
+    "category_bg": "#FF444A33",
+
+    "card_bg": "#FF444A26",
+    "text_button_color": "#FF444A",
+    "description": "Welcome to our donation campaign focused on empowering lives through education. We believe that access to quality education is a fundamental right and can be a powerful catalyst for change. By donating to our cause, you can directly impact the lives of underprivileged children, providing them with the tools and opportunities they need to build a brighter future. Your contribution will help us bridge the educational gap, ensuring that every child has equal access to knowledge and a chance to reach their full potential. Join us in our mission to transform lives through the power of education. Donate today and make a lasting difference!",
+    "price": "$290"
+    },
+    {
+      "id": 11,
+      "cover_img": "https://i.ibb.co/LhsFFyQ/Clothing.png",
+      "donation_img" : "https://i.ibb.co/cwnKFHg/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category_name": "Clothing",
+      "category_bg": "#79C23333",
+      "card_bg": "#79C23F26",
+
+      "text_button_color": "#79C23F",
+      "description": "Welcome to our Used Clothing Drive donation campaign, where your generosity can make a profound impact on the lives of those in need. By donating your gently used clothing items, you can help provide warmth, comfort, and dignity to individuals and families facing challenging circumstances. Your contribution will not only declutter your closet but also empower others to face the world with renewed confidence. Together, we can create a community of care and compassion, where every donated garment becomes a symbol of hope. Join our cause, donate today, and be a part of transforming lives through our Used Clothing Drive.",
+      "price":"$290"
+    },
+    {"id": 12,
+    "cover_img": "https://i.ibb.co/vZs1MxR/Food.png",
+    "donation_img" : "https://i.ibb.co/Gkk5Zjk/Rectangle-4287-2.png",
+    "title": "Better Food for Everyone",
+    "category_name": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+
+    "text_button_color": "#F87147",
+    "description": "Welcome to our donation campaign, Better Food for Everyone, where your generosity can make a tangible difference in the lives of individuals and communities. By donating to our cause, you can help us provide nutritious meals to those who need it most. Together, we can combat hunger, promote health, and create a world where everyone has access to quality food. Your contribution will support food banks, community kitchens, and initiatives that empower individuals to lead healthier lives. Join us in our mission to nourish lives and ensure that no one goes to bed hungry. Donate today and be a part of the movement for Better Food for Everyone.",
+    "price": "$290"
+    }
+  ]
+  
