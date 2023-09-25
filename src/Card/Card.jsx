@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Card = ({card}) => {
     
-    const {cover_img, category_name, category_bg, card_bg, text_button_color, donation_img, title, description, id,price } = card ;
+    const {cover_img, category_name, category_bg, card_bg, text_button_color, donation_img, title, description, id } = card ;
 
 
     
@@ -25,6 +25,7 @@ const Card = ({card}) => {
              <h3 className='pb-4 ml-4 text-xl font-semibold mt-2' style={{
              color : `${text_button_color}`
         }}>{title}</h3>
+
 
         </div>
 

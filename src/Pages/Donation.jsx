@@ -1,11 +1,12 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import swal from 'sweetalert';
 
 
 const Donation = () => {
 
 
-    const donatedCards = useLoaderData() ; 
+    const allDonatedCards = useLoaderData() ; 
 
     const params = useParams() ;
    
@@ -13,10 +14,46 @@ const Donation = () => {
 
     // console.log(eachSingleDetails)
    
-    const clickedCard = donatedCards.find(each => parseFloat(each.id) === idParse)
+    const clickedCard = allDonatedCards.find(each => parseFloat(each.id) === idParse)
 
-    const {cover_img, title, description, text_button_color} = clickedCard ;
+    const {cover_img, title, description, text_button_color, id} = clickedCard ;
+
+    const idCard = parseFloat(id) ;
+
   
+    const handleAddToDonation = () => {
+        const donationAddedArray = [] ;
+
+        const donatedCards = JSON.parse(localStorage.getItem('donations'))
+
+        if(!donatedCards){
+            donationAddedArray.push(clickedCard)
+            localStorage.setItem('donations', JSON.stringify(donationAddedArray))
+            swal("Good job!", "You have donated successfully!", "success");
+        }
+
+        else{
+            const isExist = donatedCards.find(item => parseFloat(item.id) === idCard)
+
+            if(!isExist){
+                donationAddedArray.push(...donatedCards, clickedCard);
+                localStorage.setItem('donations', JSON.stringify(donationAddedArray))
+                swal("Good job!", "You have donated successfully!", "success");
+            }
+            else{
+                swal("Good job!", "You have donated successfully!", "error");
+            }
+
+           
+            
+        }
+
+
+
+    }
+
+
+
 
     return (
         <div className='mx-36'>
@@ -33,7 +70,7 @@ const Donation = () => {
           } 
           className='h-[130px] w-[100%] bottom-0 absolute'>
 
-          <button style={
+          <button onClick={handleAddToDonation} style={
                 {
                     backgroundColor : `${text_button_color}`
                 }
