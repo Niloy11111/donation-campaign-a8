@@ -1,17 +1,17 @@
 import React from 'react';
-import Header from '../Header/Header';
+
 import { Outlet } from 'react-router-dom';
+import NavBar from '../NavBar/NavBar';
 
 
 const MainLayout = () => {
     return (
         <div className=''>
-
-           <Header></Header>
-
-           <Outlet></Outlet>
+            
+            <NavBar></NavBar>
            
-
+           <Outlet></Outlet>
+        
         </div>
     );
 };

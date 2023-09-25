@@ -10,23 +10,30 @@ import {
 
 import MainLayout from './MainLayout/MainLayout';
 import Home from './Pages/Home';
+import Donation from './Pages/Donation';
+
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement : <div>Oops ! sorry this page is not available</div>,
     children : [
       {
         path : "/",
         loader : () => fetch('data.json') ,
         element : <Home></Home>
+      },
+      {
+        path : "/donation/:id",
+        loader : () => fetch('data.json'),
+        element : <Donation></Donation>
       }
+
     ]
   }
 ]);
-
-
-
 
 
 

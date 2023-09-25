@@ -1,11 +1,15 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Card = ({card}) => {
-    console.log(card)
     
     const {cover_img, category_name, category_bg, card_bg, text_button_color, donation_img, title, description, id,price } = card ;
+
+
+    
     return (
-        <div  className='rounded-lg' style={{
+       <NavLink to={`/donation/${id}`}>
+ <div  className='rounded-lg' style={{
             backgroundColor : `${card_bg}`
         }} >
 
@@ -23,6 +27,8 @@ const Card = ({card}) => {
         }}>{title}</h3>
 
         </div>
+
+       </NavLink>
     );
 };
 

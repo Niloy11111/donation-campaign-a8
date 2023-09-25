@@ -1,18 +1,16 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar';
+
 
 const Header = () => {
     return (
         <div className='bg-[rgba(253,253,254,0.92)] bg-blend-overlay ' style={
             {
-                backgroundImage : `url('https://img.freepik.com/free-vector/charity-flat-concept-with-smiling-volunteers-holding-donation-boxes-big-heart-vector-illustration_1284-79449.jpg?w=1380&t=st=1695590468~exp=1695591068~hmac=0363d7e3152a64d1f48f69223fc5d43e7099827c12daddef26532c403c939941')`,
+                backgroundImage : `url('https://i.ibb.co/tPz3tK9/Rectangle-4281.png?fbclid=IwAR2GM7_-L1jAdPY9tr0PH1GHNI1yUJbyasF6QGeCBIzCn0tDLPpCbDPueYo')`,
                 backgroundRepeat : 'no-repeat',
-                backgroundSize : 'cover',
-                
-                
+                backgroundSize : 'cover',           
             }
         }>
-            <NavBar></NavBar>
+
             
           <div className='flex justify-center h-[600px] items-center'>
           <div>

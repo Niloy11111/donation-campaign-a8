@@ -11,7 +11,11 @@ const NavBar = () => {
 
             <div>
                 <ul className='flex gap-12 text-[#0B0B0B] font-normal'>
-                    <NavLink to="/"><li>Home</li></NavLink>
+                    <NavLink  to="/"
+  className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+  }><li>Home</li></NavLink>
+  
                     <li>Donation</li>
                     <li>Statistics</li>
                 </ul>
