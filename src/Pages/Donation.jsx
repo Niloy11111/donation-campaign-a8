@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import swal from 'sweetalert';
+import NavBar from '../NavBar/NavBar';
 
 
 const Donation = () => {
@@ -42,21 +43,17 @@ const Donation = () => {
             }
             else{
                 swal("Sorry !", "You have already donated !", "error");
-            }
-
-           
-            
+            }               
         }
-
-
-
     }
 
 
 
 
     return (
-        <div className='mx-10 md:mx-24 lg:mx-36'>
+     <div>
+        <NavBar></NavBar>
+           <div className='mx-10 md:mx-24 lg:mx-36'>
         
         <div className='h-[370px] md:h-[580px] lg:h-[700px] w-[100%] mx-auto mt-20 mb-12 relative' style={{
             backgroundImage : `url(${cover_img})`,
@@ -82,6 +79,7 @@ const Donation = () => {
         <h2 className='text-[#0B0B0B] text-2xl md:text-3xl lg:text-4xl font-bold lg:mt-14'>{title}</h2>
         <p className='text-[#0B0B0BB2] mt-6 mb-14 md:mb-24 lg:mb-32'>{description}</p>
         </div>
+     </div>
     );
 };
 

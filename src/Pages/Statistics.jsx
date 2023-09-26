@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
+import NavBar from '../NavBar/NavBar';
 
 
 const RADIAN = Math.PI / 180;
@@ -14,10 +15,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
     );
 };
 
-  
 
-
-//    const totalDonation = 12 ;
 
 const Statistics = () => {
 
@@ -29,6 +27,7 @@ const Statistics = () => {
     const yourDonationLength = yourDonationCard.length ;
     const parseYourDonation = parseFloat(yourDonationLength)
     setYourDonation(parseYourDonation)
+    
 }, [])
 
 
@@ -43,6 +42,10 @@ const Statistics = () => {
 
     return (
       <div>
+
+
+      <div>
+      <NavBar></NavBar>
           <div className='flex justify-center h-[60vh] items-center'>
           <ResponsiveContainer width="100%" height="100%">
             <PieChart width={500} height={500}>
@@ -61,8 +64,6 @@ const Statistics = () => {
             </PieChart>
             </ResponsiveContainer>
         </div>
-
-
         <div className='flex justify-center'>
 
          <div className='flex flex-col lg:flex-row md:flex-row md:gap-6 lg:gap-14 gap-6'>
@@ -79,8 +80,9 @@ const Statistics = () => {
 
         </div>
 
-
+      </div>
         
+
       </div>
     );
 };

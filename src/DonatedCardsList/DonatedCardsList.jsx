@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SingleDonationCard from '../SingleDonationCard/SingleDonationCard';
+import NavBar from '../NavBar/NavBar';
 
 const DonatedCardsList = () => {
 
@@ -26,7 +27,10 @@ const DonatedCardsList = () => {
     }
 
     return (
-       <div className='mb-20 md:mb-32 lg:mb-40'>
+
+     <div>
+        <NavBar></NavBar>
+          <div className='mb-20 md:mb-32 lg:mb-40'>
 
 <div className='mt-20 mx-14 md:mx-20 lg:mx-36 grid md:grid-cols-1 lg:grid-cols-2 gap-6'>
         
@@ -45,10 +49,9 @@ const DonatedCardsList = () => {
         <button onClick={handleShowAllDonation} className='text-base rounded-lg text-[#FFF] font-semibold px-7 py-4 bg-[#009444]'>See All</button>
         </div> : ''
       }
-
-
-
        </div>
+     </div>
+
     );
 };
 
