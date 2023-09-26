@@ -26,9 +26,9 @@ const DonatedCardsList = () => {
     }
 
     return (
-       <div className='mb-40'>
+       <div className='mb-20 md:mb-32 lg:mb-40'>
 
-<div className='mt-20  mx-36 grid grid-cols-2 gap-6'>
+<div className='mt-20 mx-14 md:mx-20 lg:mx-36 grid md:grid-cols-1 lg:grid-cols-2 gap-6'>
         
         {
             donatedFields.slice(0,showAllDonation).map(donatedField => 

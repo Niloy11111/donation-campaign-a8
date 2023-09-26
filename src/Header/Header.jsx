@@ -17,9 +17,9 @@ const Header = ({handleShowCategoryWise}) => {
             
           <div className='flex justify-center h-[600px] items-center'>
           <div>
-                <h2 className='text-5xl text-[#0B0B0B] font-bold text-center'>I Grow By Helping People In Need</h2>
+                <h2 className='text-3xl md:text-4xl lg:text-5xl text-[#0B0B0B] font-bold text-center'>I Grow By Helping People In Need</h2>
 
-                <div className='mt-10 flex mx-auto justify-between w-[480px] bg-[#FFF] border border-[#DEDEDE] rounded-lg'>
+                <div className='mt-10 flex mx-auto justify-between w-[350px] md:w-[400px] lg:w-[480px] bg-[#FFF] border border-[#DEDEDE] rounded-lg'>
 
                  <input id='field-id' className='py-4 pl-4 outline-none' type="text" placeholder='Search here....' />
 
