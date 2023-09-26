@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { PieChart, Pie, Cell } from 'recharts';
+import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 
 const RADIAN = Math.PI / 180;
@@ -44,6 +44,7 @@ const Statistics = () => {
     return (
       <div>
           <div className='flex justify-center h-[60vh] items-center'>
+          <ResponsiveContainer width="100%" height="100%">
             <PieChart width={500} height={500}>
                 <Pie
                     data={data}
@@ -58,6 +59,7 @@ const Statistics = () => {
                     ))}
                 </Pie>
             </PieChart>
+            </ResponsiveContainer>
         </div>
 
 
