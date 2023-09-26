@@ -1,7 +1,10 @@
-import React from 'react';
+// import React, { useState } from 'react';
 
 
-const Header = () => {
+const Header = ({handleShowCategoryWise}) => {
+
+
+
     return (
         <div className='bg-[rgba(253,253,254,0.92)] bg-blend-overlay ' style={
             {
@@ -18,9 +21,9 @@ const Header = () => {
 
                 <div className='mt-10 flex mx-auto justify-between w-[480px] bg-[#FFF] border border-[#DEDEDE] rounded-lg'>
 
-                 <input className='py-4 pl-4 outline-none' type="text" placeholder='Search here....' />
+                 <input id='field-id' className='py-4 pl-4 outline-none' type="text" placeholder='Search here....' />
 
-                 <button className='bg-[#FF444A] py-4 px-6 text-base font-semibold text-[#FFF]'>Search</button>
+                 <button onClick={handleShowCategoryWise} className='bg-[#FF444A] py-4 px-6 rounded-r-lg text-base font-semibold text-[#FFF]'>Search</button>
 
                 </div>
           </div>

@@ -25,7 +25,7 @@ const SingleDonationCard = ({ donatedField }) => {
                     {
                         backgroundColor : `${card_bg}`
                     }
-                } className='w-2/3 pl-6 pb-6'>
+                } className='w-2/3 pl-6 pb-6 rounded-r-lg'>
                     <h4 className='mt-6 rounded px-3 py-1 text-sm font-medium max-w-fit' style={{
                         backgroundColor: `${category_bg}`,
                         color: `${text_button_color}`

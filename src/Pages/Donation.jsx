@@ -41,7 +41,7 @@ const Donation = () => {
                 swal("Good job!", "You have donated successfully!", "success");
             }
             else{
-                swal("Good job!", "You have donated successfully!", "error");
+                swal("Sorry !", "You have already donated !", "error");
             }
 
            

@@ -12,13 +12,15 @@ import MainLayout from './MainLayout/MainLayout';
 import Home from './Pages/Home';
 import Donation from './Pages/Donation';
 import DonatedCardsList from './DonatedCardsList/DonatedCardsList';
+import ErrorPage from './ErrorPage/ErrorPage';
+import Statistics from './Pages/Statistics';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    errorElement : <div>Oops ! sorry this page is not available</div>,
+    errorElement : <ErrorPage></ErrorPage>,
     children : [
       {
         path : "/",
@@ -33,6 +35,10 @@ const router = createBrowserRouter([
       {
         path : "/donatedCards",
         element : <DonatedCardsList></DonatedCardsList>
+      },
+      {
+        path : "/statistics",
+        element : <Statistics></Statistics>
       }
 
     ]

@@ -1,27 +1,20 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { useNavigate } from "react-router-dom";
+
 const NavBar = () => {
 
 
-    const navigate = useNavigate();
-
-
-    const handleGoHome = () => {
-         navigate("/");
-    }
-
 
     return (
-        <div className='flex justify-between items-center mx-36 pt-12'>
+        <div className='flex flex-col lg:flex-row md:flex-col justify-between items-center mx-36 pt-12'>
 
             <div>
                 <img src='https://i.ibb.co/t2SVyK2/Logo.png'></img>
             </div>
 
-            <div>
+            <div className='mt-8 lg:mt-0'>
                 <ul className='flex gap-12 text-[#0B0B0B] font-normal'>
-                    <NavLink onClick={handleGoHome} to="/"
+                    <NavLink to="/"
   className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
   }><li>Home</li></NavLink>
@@ -31,7 +24,15 @@ const NavBar = () => {
                     isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
                   }
                     ><li>Donation</li></NavLink>
-                    <li>Statistics</li>
+
+
+               <NavLink to="/statistics"
+                className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+              }
+               >  <li>Statistics</li></NavLink>
+
+
                 </ul>
             </div>
         </div>
