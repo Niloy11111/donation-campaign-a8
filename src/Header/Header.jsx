@@ -4,8 +4,28 @@ import { useState } from "react";
 import NavBar from "../NavBar/NavBar";
 
 
+  //     const inputField = document.getElementById('field-id')
+    //     setSearchValue(inputField.value) ;
 
-const Header = () => {
+    //     setSearchValue(inputField.value) ;
+
+    //     const categoryWiseCard = cards.filter(card => card.category_name.toLocaleLowerCase() === searchValue.toLocaleLowerCase() );
+
+    //   if(categoryWiseCard){
+    //     setCards(categoryWiseCard)
+    //     console.log(categoryWiseCard)
+    //   }
+
+    //     console.log(searchValue)
+        
+        // inputField.value = "" ;
+
+
+    
+
+const Header = ({handleOnSubmit, handleSearchValue}) => {
+
+    
 
     return (
         <div className='bg-[rgba(253,253,254,0.92)] bg-blend-overlay md:h-full lg:h-full'
@@ -25,9 +45,11 @@ const Header = () => {
 
                 <div className='mt-6 lg:mt-10 mx-auto flex justify-between bg-[#FFF] border w-[300px] md:w-[300px] lg:w-[470px] border-[#DEDEDE] rounded-lg'>
 
-                 <input id='field-id' className='py-3 lg:py-4 pl-4 outline-none ' type="text" placeholder='Search here....' />
+                 <input onChange={handleSearchValue} name='category' id='field-id' className='py-3 lg:py-4 pl-4 outline-none ' type="text" placeholder='Search here....' />
 
-                 <button  type="submit" className='bg-[#FF444A] py-3 lg:py-4 px-6 rounded-r-lg text-base font-semibold text-[#FFF]'>Search</button>
+               <form onSubmit={handleOnSubmit}>
+               <button  type="submit" className='bg-[#FF444A] py-3 lg:py-4 px-6 rounded-r-lg text-base font-semibold text-[#FFF]'>Search</button>
+               </form>
 
                 </div>
 

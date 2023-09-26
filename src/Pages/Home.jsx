@@ -15,56 +15,30 @@ const Home = () => {
 
     }, [])
 
-    // const cards = useLoaderData() ; 
-    // const [category, setCategory] = useState([])
+    const [searchValue, setSearchValue] = useState() ;
 
-    // const [searchValue, setSearchValue] = useState('') ;
+    const handleOnSubmit = e => {
+        e.preventDefault() ;
 
+        const categoryWiseCard = cards.filter(card => card.category_name.toLowerCase().includes(searchValue.toLowerCase())   );
     
-    // const handleSearchValue = e => {
-    //   setSearchValue(e.target) 
-
-    // }
-
-    // const handleOnSubmit = e => {
-    //     const inputField = document.getElementById('field-id')
-    //     setSearchValue(inputField.value) ;
-
-    //     setSearchValue(inputField.value) ;
-
-    //     const categoryWiseCard = cards.filter(card => card.category_name.toLocaleLowerCase() === searchValue.toLocaleLowerCase() );
-
-    //   if(categoryWiseCard){
-    //     setCards(categoryWiseCard)
-    //     console.log(categoryWiseCard)
-    //   }
-
-    //     console.log(searchValue)
-        
-    //     inputField.value = "" ;
-    //   e.preventDefault() ;
-    //   console.log(searchValue)
-      
-    // }
-    // const [searchValue, setSearchValue] = useState('') ;
-
-    
-    // const handleSearchValue = e => {
-    //   setSearchValue(e.target.value) 
-  
-     
-
-    // }
-    // console.log(searchValue)
-
-    // const handleOnSubmit = e => {
+       if(searchValue){
+        setCards(categoryWiseCard)
        
-    //   e.preventDefault() ;
-    //     const categoryWiseCard = cards.filter(card => card.category_name.toLocaleLowerCase() === searchValue.toLocaleLowerCase() );
+        console.log(categoryWiseCard)
+       }
+       else{
+        setCards(cards)
 
-    //     setCards(categoryWiseCard)
-      
-    // }
+       }
+       
+      }
+    
+    const handleSearchValue = e => {
+      setSearchValue(e.target.value);
+
+    }
+    
     
    
 
@@ -72,7 +46,8 @@ const Home = () => {
        <div>
         
         <Header 
-
+        handleOnSubmit={handleOnSubmit}
+        handleSearchValue={handleSearchValue}
         ></Header>
 
          <div className='mb-16 md:mb-32 lg:mb-44 mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-10 md:mx-24 lg:mx-36'>
