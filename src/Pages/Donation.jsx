@@ -53,7 +53,7 @@ const Donation = () => {
             <NavBar></NavBar>
             <div className='mx-10 md:mx-24 lg:mx-36'>
 
-                <div className='h-[370px] md:h-[580px] rounded-lg lg:h-[700px] w-[100%] mx-auto mt-20 mb-12 relative' style={{
+                <div className='h-[290px] md:h-[580px] rounded-lg lg:h-[700px] w-[100%] mx-auto mt-20 mb-12 relative' style={{
                     backgroundImage: `url(${cover_img})`,
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover'
@@ -69,7 +69,7 @@ const Donation = () => {
                             {
                                 backgroundColor: `${text_button_color}`
                             }
-                        } className='text-[#FFF] text-xl font-semibold py-3 lg:py-4 px-6 mt-4 md:mt-6 rounded lg:mt-9 ml-9 lg:mb-9 '>Donate $290</button>
+                        } className='text-[#FFF] lg:text-xl font-semibold py-2 lg:py-4 md:py-4 px-4 lg:px-6 mt-6 md:mt-6 rounded lg:mt-9 ml-4 md:ml-9 lg:mb-9 '>Donate $290</button>
 
 
                     </div>

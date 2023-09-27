@@ -16,17 +16,17 @@ const SingleDonationCard = ({ donatedField }) => {
     return (
         <div>
 
-            <div className='flex'>
+            <div className='md:flex'>
                 <div className='md:w-1/3 flex-1 md:flex-none lg:flex-none'>
-                    <img className='rounded-l-lg w-full h-full' src={donation_img}></img>
+                    <img className='rounded-t-lg md:rounded-l-lg w-full h-full' src={donation_img}></img>
                 </div>
 
                 <div style={
                     {
                         backgroundColor: `${card_bg}`
                     }
-                } className='md:w-2/3 md:flex-none lg:flex-none flex-1 pl-4 md:pl-6 lg:pl-6 pb-4 lg:pb-6 rounded-r-lg'>
-                    <h4 className='mt-3 md:mt-6 rounded px-3 py-1 text-sm font-medium max-w-fit' style={{
+                } className='md:w-2/3 pt-4 md:pt-0 md:flex-none lg:flex-none flex-1 pl-4 md:pl-6 lg:pl-6 pb-4 lg:pb-6 rounded-b-lg md:rounded-r-lg'>
+                    <h4 className='mt-0 md:mt-6 rounded px-3 py-1 text-sm font-medium max-w-fit' style={{
                         backgroundColor: `${category_bg}`,
                         color: `${text_button_color}`
                     }}>{category_name}</h4>
