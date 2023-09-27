@@ -18,15 +18,14 @@ const Header = ({ handleOnSubmit, handleSearchValue }) => {
       }>
       <NavBar></NavBar>
 
-      <div className='flex justify-center h-[300px] md:h-[300px] lg:h-[600px] items-center'>
+      <div className='flex mx-10 justify-center h-[300px] md:h-[300px] lg:h-[600px] items-center'>
         <div>
           <h2 className='text-3xl md:text-4xl lg:text-5xl text-[#0B0B0B] font-bold text-center'>I Grow By Helping People In Need</h2>
 
-          <div className='mt-6 lg:mt-10 mx-auto flex justify-between bg-[#FFF] border w-[300px] md:w-[300px] lg:w-[470px] border-[#DEDEDE] rounded-lg'>
-
+          <div className='mt-6 lg:mt-10 md:mx-auto flex justify-between bg-[#FFF] border w-[300px] md:w-[300px] lg:w-[470px] border-[#DEDEDE] rounded-lg'>
             <input onChange={handleSearchValue} name='category' id='field-id' className='py-3 lg:py-4 pl-4 outline-none ' type="text" placeholder='Search here....' />
 
-            <form onSubmit={handleOnSubmit}>
+            <form onSubmit={handleOnSubmit} >
               <button type="submit" className='bg-[#FF444A] py-3 lg:py-4 px-6 rounded-r-lg text-base font-semibold text-[#FFF]'>Search</button>
             </form>
 

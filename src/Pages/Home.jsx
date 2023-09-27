@@ -48,7 +48,7 @@ const Home = () => {
                 handleSearchValue={handleSearchValue}
             ></Header>
 
-            <div className='mb-16 md:mb-32 lg:mb-44 mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-10 md:mx-24 lg:mx-36'>
+            <div className='mb-16 md:mb-32 lg:mb-44 mt-14 lg:mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-10 md:mx-24 lg:mx-36'>
                 {
                     cards.map(card => <Card key={card.id}
                         card={card}
