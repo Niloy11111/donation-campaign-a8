@@ -15,22 +15,22 @@ const NavBar = () => {
             <div className='mt-6 lg:mt-0'>
                 <ul className='flex gap-12 text-[#0B0B0B] font-normal'>
                     <NavLink to="/"
-  className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
-  }><li>Home</li></NavLink>
+                        className={({ isActive, isPending }) =>
+                            isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                        }><li>Home</li></NavLink>
 
                     <NavLink to="/donatedCards"
-                    className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
-                  }
+                        className={({ isActive, isPending }) =>
+                            isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                        }
                     ><li>Donation</li></NavLink>
 
 
-               <NavLink to="/statistics"
-                className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
-              }
-               >  <li>Statistics</li></NavLink>
+                    <NavLink to="/statistics"
+                        className={({ isActive, isPending }) =>
+                            isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                        }
+                    >  <li>Statistics</li></NavLink>
 
 
                 </ul>
@@ -39,5 +39,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;<div>
-<img src=''></img></div>
+export default NavBar;

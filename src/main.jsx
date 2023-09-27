@@ -20,25 +20,25 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    errorElement : <ErrorPage></ErrorPage>,
-    children : [
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
       {
-        path : "/",
-        loader : () => fetch('data.json') ,
-        element : <Home></Home>
+        path: "/",
+        loader: () => fetch('data.json'),
+        element: <Home></Home>
       },
       {
-        path : "/donation/:id",
-        loader : () => fetch('data.json'),
-        element : <Donation></Donation>
+        path: "/donation/:id",
+        loader: () => fetch('data.json'),
+        element: <Donation></Donation>
       },
       {
-        path : "/donatedCards",
-        element : <DonatedCardsList></DonatedCardsList>
+        path: "/donatedCards",
+        element: <DonatedCardsList></DonatedCardsList>
       },
       {
-        path : "/statistics",
-        element : <Statistics></Statistics>
+        path: "/statistics",
+        element: <Statistics></Statistics>
       }
 
     ]

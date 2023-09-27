@@ -8,7 +8,6 @@ const MainLayout = () => {
     return (
         <div className=''>
             
-            {/* <NavBar></NavBar> */}
            
            <Outlet></Outlet>
         

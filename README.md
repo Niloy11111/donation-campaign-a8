@@ -13,6 +13,6 @@
 
  <br/>
 
- - ## Feature-3 : Showing The Donation of a user against the Total Donation in the Statistics page through a Pie Chart.<br/>
+ - ## Feature-3 : Showing The Donation of an user against the Total Donation in the Statistics page through a Pie Chart.<br/>
 
    ### After Completing the donation process a user can see a Pie Chart in the Statistics page about how much his/her donation has become against the total donation numbers.
